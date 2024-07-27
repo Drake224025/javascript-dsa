@@ -23,10 +23,6 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-const numbers = [1, 2, 3];
-const shifted = numbers.shift();
-const unshifted = numbers.unshift(5);
-
 let result = "";
 
 for (const row of rows) {
